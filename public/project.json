@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Tech Exchange - Resale Market site",
+        "img1":"https://i.ibb.co/YhW3wdC/project1img1.png",
+        "img2":"https://i.ibb.co/tcnfTn3/project1img2.png",
+        "img3":"https://i.ibb.co/R9HsbHn/project1img3.png",
+        "img4":"https://i.ibb.co/n8hjtzM/project1img4.png",
+        "description": "Tech exchange is a website for buying old mobiles. Buyers can buy old mobiles through this website. the first home page has 3 categories, if you click on the category button we can see the category products.After the buyer registers, he clicks on a category You can see the category products. The buyer can buy the product and register as a seller, the seller can add and advertise the product.Admin is set here by default. Admin can delete any buyer and seller if he wants. Again, the admin can verify a seller. The last blog section has given some questions to answer.",
+        "livelink": "https://used-products-resale-45da8.web.app/",
+        "githublink": "https://github.com/Mihir160/b612-used-products-resale-clients-side",
+        "githubserverlink":"https://github.com/Mihir160/b612-used-products-resale-server-side"
+    },
+    {
+        "title":"XtreameClean - A personal cleaning service website",
+        "img1":"https://i.ibb.co/WDXfYtd/project2img1.png",
+        "img2":"https://i.ibb.co/cwhWS0c/project2img2.png",
+        "img3":"https://i.ibb.co/QXQNv3V/project2img3.png",
+        "img4":"https://i.ibb.co/CvTXSZf/project2img4.png",
+        "description": "House office and other cleaning service websites. When we go to the home page, we see only three services. If we click to see all then we will get all services.You click the see all button that has details in the service cards, and it will go to details here there are two sections details and review. We add a review, if we want to do it, we have to log in. Review cannot be added if not logged in. If we go to my review now we can see our reviews. If we go to add service, we can add additional service.",
+        "livelink": "https://b6a11-service-review.web.app/",
+        "githublink": "https://github.com/Mihir160/b6a11-service-review-client-side",
+        "githubserverlink":"https://github.com/Mihir160/b6a11-service-review-server-side" 
+    }
+    ,
+    {
+        "title":"Code Stack - Online Learning platform site",
+        "img1":"https://i.ibb.co/K6zry2J/project3img1.png",
+        "img2":"https://i.ibb.co/nDT2vqG/project3img2.png",
+        "img3":"https://i.ibb.co/4tY7k7s/project3img3.png",
+        "img4":"https://i.ibb.co/XL1jc2b/project3img4.png",
+        "description": "We can purchase different types of courses through this website. If we click course then it will show how many courses there are. Now if you click on the course names on the left side, the course detail will go. If we get to the end of the course cards If you click the button, you will go to the details button.There is a button called premium access below the course details. Clicking the premium access button will take you to the checkout page.If we go to the login page we can log in. We have an account and We can also log in with google, email, and password, GitHub.If there is no account then we click register If you do, it will take you to the register page and you can register.",
+        "livelink": "https://code-stack-1a5a8.web.app/",
+        "githublink": "https://github.com/Mihir160/b610-learning-platform-client-side",
+        "githubserverlink":"https://github.com/Mihir160/b610-lerning-platform-server-side" 
+    }
+
+]
