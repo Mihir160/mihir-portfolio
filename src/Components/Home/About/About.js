@@ -3,7 +3,7 @@ import img1 from '../../../image/img1.jfif'
 const About = () => {
     return (
         <div id='about' className="px-4 py-16 lg:mx-28 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                <h1 className='text-2xl font-bold'>About Me</h1>     
+                <h1 className='text-2xl font-bold text-[#00df9a]'>About Me</h1>     
             <div className="grid mt-4 gap-10 lg:grid-cols-2">
 
                     <div className="max-w-xl text-[#00df9a] mb-6">

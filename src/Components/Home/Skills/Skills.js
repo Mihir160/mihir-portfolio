@@ -12,7 +12,7 @@ const Skills = () => {
         <div id='skill'>
             <div className='lg:mx-28'>
                 <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                    <h1 className='text-2xl font-bold'>Skills</h1>
+                    <h1 className='text-2xl font-bold text-[#00df9a]'>Skills</h1>
                     <div className="relative mt-4 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                         <div className="flex flex-col text-center justify-between overflow-hidden   transition-shadow duration-200  rounded-lg shadow-xl group hover:shadow-2xl shadow-[#00df9a]">
                             <img className='' src={html} alt="" srcset="" />

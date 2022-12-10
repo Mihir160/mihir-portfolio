@@ -15,8 +15,8 @@ const Contact = () => {
             });
     };
     return (
-        <div id='contact' className='lg:mx-28 mt-4'>
-            <h1 className='text-2xl font-bold'>Contact</h1>
+        <div id='contact' className=' mt-4'>
+            <h1 className='text-2xl font-bold text-[#00df9a]'>Contact</h1>
             <div className='hero mt-4'>
                 <form className='card-body card flex-shrink-0  w-full max-w-sm shadow-2xl shadow-[#00df9a] bg-base-100' ref={form} onSubmit={sendEmail}>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookSquare, FaLinkedin,FaGithub } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin,FaGithub, FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
@@ -29,6 +29,9 @@ const Footer = () => {
                             >
                                 <FaGithub ></FaGithub>
                             </a>
+                             
+                             <div className='flex items-center gap-2'><FaPhoneAlt className='text-2xl'></FaPhoneAlt>
+                             <p className='text-[#00df9a]'>+8801303141169</p></div>
                         </div>
                     </div>
                 </div>
