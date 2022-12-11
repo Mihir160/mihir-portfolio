@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
     const [projectsData, setProjectsData] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/projects')
+        fetch('https://mihir-portfolio-server.vercel.app/projects')
             .then(res => res.json())
             .then(data => setProjectsData(data))
     }, [])

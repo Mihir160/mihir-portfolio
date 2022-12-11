@@ -13,7 +13,7 @@ export const routes = createBrowserRouter([
     {
         path:'projects/:id',
         element:<ProjectsDetails></ProjectsDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/projects/${params.id}`)
+        loader: ({ params }) => fetch(`https://mihir-portfolio-server.vercel.app/projects/${params.id}`)
     },
     {
         path:'/blog',
