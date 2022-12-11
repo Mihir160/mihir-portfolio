@@ -6,7 +6,7 @@ const About = () => {
                 <h1 className='text-2xl font-bold text-[#00df9a]'>About Me</h1>     
             <div className="grid mt-4 gap-10 lg:grid-cols-2">
 
-                    <div className="max-w-xl text-[#00df9a] mb-6">
+                    <div data-aos="fade-right" className="max-w-xl text-[#00df9a] mb-6">
                         <p className="text-base md:text-lg">
                          Hi! I am MERN Stack Developer.I am passionate about Mern Stack development and I'm familiar with GitHub.I have knowledge of data structure and algorithms. Also, I have knowledge of java and python.
                          <br />
@@ -17,7 +17,7 @@ const About = () => {
 
              
                 <div className="flex items-center justify-center -mx-4 lg:pl-8">
-                    <div className="px-3 ">
+                    <div data-aos="fade-left" className="px-3 ">
                         <img
                             className="object-cover  w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
                             src={img1}
