@@ -4,8 +4,7 @@ import { FaLaptop, FaGithub } from "react-icons/fa";
 import Footer from '../Footer/Footer';
 const ProjectsDetails = () => {
     const projectsData = useLoaderData()
-    // console.log(projectsData[0].description)
-    console.log(projectsData)
+ 
     const { img2, img3, img4, fulldescription1, fulldescription2, fulldescription3, fulldescription4, fulldescription5, livelink, githublink } = projectsData[0]
 
 
