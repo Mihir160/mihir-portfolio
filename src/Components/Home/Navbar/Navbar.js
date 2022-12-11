@@ -14,6 +14,7 @@ const Navbar = () => {
                 <a href='#about' className='p-4 hover:text-[#00df9a]'>About</a>
                 <a href='#skill' className='p-4 hover:text-[#00df9a]'>Skills</a>
                 <a href='#project' className='p-4 hover:text-[#00df9a]'>Projects</a>
+                <a href='/blog' className='p-4 hover:text-[#00df9a]'>Blog</a>
                 <a href='#contact' className='p-4 hover:text-[#00df9a]'>Contact</a>
                 <a href={resume} download="mihir.pdf"> <button className='btn btn-sm text-white btn-outline hover:bg-[#00df9a]'>Resume</button></a>
             </ul>

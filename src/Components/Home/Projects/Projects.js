@@ -13,7 +13,7 @@ const Projects = () => {
     }, [])
     console.log(projectsData)
     return (
-        <div id='project' >
+        <div id='project' className="lg:mx-20">
             <h1 className='text-2xl font-bold text-[#00df9a]'>Projects</h1>
 
 
