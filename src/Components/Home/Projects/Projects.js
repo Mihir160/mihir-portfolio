@@ -6,7 +6,7 @@ const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/projects")
+    fetch("https://porfolio-server-m4gmt8sx1-mihir160.vercel.app/projects")
       .then((res) => res.json())
       .then((data) => setProjectsData(data));
   }, []);
@@ -18,7 +18,7 @@ const Projects = () => {
       {projectsData.map((project) => (
         <section
           key={project._id}
-          className="relative p-4 md:py-10 md:px-0 md:p-10 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1"
+          className="relative p-4 md:py-10 md:px-0 md:p-10 transform duration-500  cursor-pointer "
         >
           <div data-aos="fade-right">
             <img
