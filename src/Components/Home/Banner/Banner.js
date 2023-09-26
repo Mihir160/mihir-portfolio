@@ -1,5 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+
 const Banner = () => {
   return (
     <div className="px-4 lg:mx-28  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -13,7 +14,7 @@ const Banner = () => {
           <h5 className="mb-4 text-4xl lg:text-6xl font-extrabold  leading-none">
             I'm a{" "}
             <Typewriter
-              words={["FUll Stack Web Developer", "MERN Stack Developer"]}
+              words={["Full Stack Web Developer", "MERN Stack Developer"]}
               loop={5}
               cursor
               cursorStyle="_"
